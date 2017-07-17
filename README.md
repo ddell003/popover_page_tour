@@ -58,4 +58,49 @@ param 1 = page for the tour, needs to reflect a propert in tourSections below
 param 2= autoStart tour, by default tour will auto start
 //set up json object below with tour items
 ```
+### Example of json object:
+```
+//object of arrays with objects
+	var  tourSections = {
+        //for demo page
+        demo: [
+    	
+    		{
+    			'link':'.name_dropdown',
+    			'message':'This is the name drop down, from here you can view personal information and change user roles, as well as logging out',
+    			'title':'Name Drop Down'
+    		},
+    		{
+    			'link':'.dashboard',
+    			'message':'This is the overall facility dashboard which will show you your current tasks elapsed tasks and items that need follow up',
+    			'title':'Dashboard'
+    		},
+    		{
+    			'link':'#mi_dropdown',
+    			'message':'Click here to reveal additional links to ...',
+    			'title':'Mechanical Integrity Drop Down'
+    		},
+    		{
+    			'link':'.help',
+    			'message':'Come here to email support and to view knowledge base',
+    			'title':'Help'
+    		}
+    		,
+    		{
+    			'link':'#google_translate_element',
+    			'message':'Come here to change the language',
+    			'title':'Language',
+    			'location':'bottom',
+    		}
+    		,
+    		{
+    			'link':'.side_collaps',
+    			'message':'Come here to change the language',
+    			'title':'Language',
+    			'location':'right',
+    		}
+    					
+    	]
+    };
+```
 
