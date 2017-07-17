@@ -5,7 +5,7 @@ To set up all you need to do is is fill in the json variable with the approprite
 
 Implemented using codeigniter as my php framework
 
-
+[Link of code in action](https://codepen.io/ddell/pen/BZLNax)
 
 
 ## Setting Up
