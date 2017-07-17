@@ -1,6 +1,8 @@
 # popover_page_tour
 Use bootstrap popovers to create an elaborate tour of a web page and website
 
+To set up all you need to do is is fill in the json variable with the approprite properties and fields and make sure you have ids or classes that coresponds to what is in the objects
+
 Implemented using codeigniter as my php framework
 
 
